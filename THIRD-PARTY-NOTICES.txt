@@ -1,0 +1,199 @@
+THIRD-PARTY NOTICES
+===================
+
+binarycode-mcp.exe bundles the following third-party components,
+redistributed under their respective licenses. This file satisfies the
+attribution requirements of those licenses. It does not change the license
+of binarycode-mcp itself (see LICENSE for that).
+
+-------------------------------------------------------------------------
+COMPONENT LIST
+-------------------------------------------------------------------------
+
+MIT License
+  - tree-sitter-al (AL grammar for Business Central)
+      Copyright (c) 2024 Torben Leth <sshadows@sshadows.dk>
+  - tree-sitter-cal (C/AL grammar)
+      Copyright (c) BinaryCode
+  - tree-sitter (runtime, compiled into the grammar binaries)
+      Copyright (c) 2018-2024 Max Brunsfeld
+  - mcp 1.26.0
+      Copyright (c) Anthropic
+  - pydantic 2.12.5
+  - pydantic-core
+  - pydantic-settings 2.13.1
+  - anyio 4.12.1
+  - h11 0.16.0
+  - httpx-sse 0.4.3
+  - annotated-types 0.7.0
+  - jsonschema 4.26.0
+
+BSD-3-Clause License
+  - httpx 0.28.1
+  - starlette 1.0.0
+  - uvicorn 0.42.0
+  - sse-starlette 3.3.3
+  - click 8.3.1
+  - idna 3.11
+
+BSD-2-Clause License
+  - xxhash 3.6.0
+
+MIT OR Apache-2.0 (dual-licensed; used here under the MIT terms above)
+  - sniffio
+
+Apache License 2.0
+  - python-multipart 0.0.22
+
+Mozilla Public License 2.0 (MPL-2.0)
+  - certifi 2026.2.25
+
+Python Software Foundation License (PSF)
+  - CPython (embedded interpreter, via PyInstaller)
+  - typing_extensions 4.15.0
+
+Build tooling (not redistributed)
+  - PyInstaller was used to build/freeze this application into a single
+    executable. PyInstaller is licensed under the GPLv2 with a bootloader
+    exception; that exception explicitly permits distributing the frozen
+    application under any license of the author's choosing. No PyInstaller
+    source or library code is included in this distribution, so no
+    attribution is required — this note is provided for transparency only.
+
+-------------------------------------------------------------------------
+MIT LICENSE (full text)
+-------------------------------------------------------------------------
+
+The following MIT License text applies to all components listed above
+under "MIT License", including the AL grammar (tree-sitter-al, Copyright
+(c) 2024 Torben Leth), tree-sitter-cal, tree-sitter, and the MIT-licensed
+Python packages listed above. Each component retains its own copyright
+holder as noted in the component list; the license terms are identical
+and reproduced once here.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------
+BSD 3-CLAUSE LICENSE (full text)
+-------------------------------------------------------------------------
+
+Applies to: httpx, starlette, uvicorn, sse-starlette, click, idna.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+-------------------------------------------------------------------------
+BSD 2-CLAUSE LICENSE (full text)
+-------------------------------------------------------------------------
+
+Applies to: xxhash.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+-------------------------------------------------------------------------
+APACHE LICENSE 2.0 (reference + required notice)
+-------------------------------------------------------------------------
+
+Applies to: python-multipart.
+(sniffio is dual-licensed MIT OR Apache-2.0; it is used here under the
+MIT terms reproduced above.)
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not
+use this component except in compliance with the License. You may obtain a
+copy of the License at:
+
+    https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+License for the specific language governing permissions and limitations
+under the License.
+
+-------------------------------------------------------------------------
+MOZILLA PUBLIC LICENSE 2.0 (reference)
+-------------------------------------------------------------------------
+
+Applies to: certifi.
+
+This component is licensed under the Mozilla Public License, v. 2.0. The
+full license text is available at:
+
+    https://mozilla.org/MPL/2.0/
+
+If a copy of the MPL was not distributed with this file, you can obtain one
+at the above URL. certifi is used unmodified as a bundled CA certificate
+data package; no source changes have been made to it.
+
+-------------------------------------------------------------------------
+PYTHON SOFTWARE FOUNDATION LICENSE (reference)
+-------------------------------------------------------------------------
+
+Applies to: CPython (the embedded Python interpreter, bundled by
+PyInstaller) and typing_extensions.
+
+These components are licensed under the Python Software Foundation License
+Agreement. The full license text is available at:
+
+    https://docs.python.org/3/license.html
+
+Copyright (c) Python Software Foundation. All Rights Reserved.

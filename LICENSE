@@ -1,0 +1,18 @@
+Copyright (c) 2026 dbru77 (the BinaryCode MCP author). All rights reserved.
+
+This software is provided as a downloadable binary for use with Business
+Central AL development. The binarycode-mcp source code is not open source
+and is not distributed here or elsewhere publicly.
+
+No permission is granted to copy, modify, reverse engineer, redistribute, or
+create derivative works from this software, except for the ordinary
+execution of the provided executable for its intended purpose.
+
+Third-party components bundled inside the binary are listed in
+THIRD-PARTY-NOTICES.txt and remain licensed under their respective
+third-party licenses (MIT, BSD, Apache-2.0, MPL-2.0, PSF, etc.). This
+proprietary notice does not apply to those components.
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
