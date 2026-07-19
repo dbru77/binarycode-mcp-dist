@@ -74,7 +74,7 @@ including:
 
 ---
 
-This software is proprietary — © the BinaryCode MCP author. All rights
+This software is proprietary — © 2026 Jan-Hendrik Klaffke. All rights
 reserved. Source code is not distributed. Third-party components bundled in
 the binary are listed, with their licenses, in
 [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt).
