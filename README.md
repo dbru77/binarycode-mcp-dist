@@ -91,6 +91,7 @@ BinaryCode exposes these MCP tools:
 | --- | --- |
 | `ast_find_refs` | Find all AL objects that reference a target (table, codeunit, procedure, etc.) |
 | `ast_get_object` | Get the full structure of an AL object including fields, procedures, labels, and references |
+| `ast_find_objects` | List objects by name, type, object_id range, language, or source app |
 | `ast_get_procedures` | List all procedures from an AL object |
 | `ast_get_fields` | List or search a table or page object's fields (field number, name, data type, table relation) |
 | `ast_find_events` | Find AL event publishers (IntegrationEvent, BusinessEvent, InternalEvent) |
